@@ -7,7 +7,8 @@ export const Card: React.FC = () => {
   const arr: string[] = Array(1000).fill("1");
 
   return (
-    <div style={{ display: "flex", height: "100vh",width:"100vw",marginRight:"20px" }}>
+    <div style={{ display: "flex", height: "100vh", width: "80vw", marginRight: "20px", overflowX: "hidden",
+          scrollbarWidth: "none", }}>
       <div
         style={{
           width: "35%",
